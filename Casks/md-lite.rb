@@ -1,6 +1,6 @@
 cask "md-lite" do
-  version "0.4.0"
-  sha256 "9fd84eae1c03b9a80363f1fb940ba7bc95cb5f50747f900cb78339451890dcc6"
+  version "0.4.1"
+  sha256 "8b41f5768ea52b047f86addef6d8a27421a242d842a857ca3f8b6ff826fe1873"
 
   url "https://github.com/glozahn/md-lite/releases/download/v#{version}/MD-Lite-#{version}-universal.dmg"
   name "MD Lite"
