@@ -1,8 +1,8 @@
 cask "md-lite" do
-  version "0.3.7"
-  sha256 "0b5b6a6d6467d522930a446572a7da903845cc269220b1a9ad45f1efae42b297"
+  version "0.4.0"
+  sha256 "9fd84eae1c03b9a80363f1fb940ba7bc95cb5f50747f900cb78339451890dcc6"
 
-  url "https://github.com/glozahn/md-lite/releases/download/v#{version}/MD-Lite-#{version}-arm64.dmg"
+  url "https://github.com/glozahn/md-lite/releases/download/v#{version}/MD-Lite-#{version}-universal.dmg"
   name "MD Lite"
   desc "Lightweight native Markdown reader and editor"
   homepage "https://github.com/glozahn/md-lite"
@@ -14,8 +14,7 @@ cask "md-lite" do
 
   # MD Lite updates itself; Homebrew does not need to.
   auto_updates true
-  depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MD Lite.app"
 
